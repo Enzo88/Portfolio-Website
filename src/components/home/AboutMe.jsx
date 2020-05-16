@@ -39,7 +39,7 @@ const AboutMe = () => {
                   role="button"
                   aria-label="Resume/CV"
                 >
-                  Resume
+                  Curriculum Vitae
                 </a>
               </p>
             )}
