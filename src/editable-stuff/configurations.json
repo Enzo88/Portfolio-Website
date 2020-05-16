@@ -24,5 +24,77 @@
   "showProfilePic": true,
   "aboutDescription": "Nato come sviluppatore full stack, in seguito specializzato anche nella parte sistemistica e networking, infine passato al DevOps. Competenze principali in tutte le fasi del ciclo di vita del software, dalla progettazione allo sviluppo e alla manutenzione. Ottime competenze nella progettazione di una infrastruttura software come ausilio allo sviluppo e per l'erogazione dei servizi, dalla creazione di un ambiente di Continuous Integration/Deployment, alla progettazione e realizzazione di un hosting cloud per l'erogazione dei servizi. Ottime competenze anche nella manutenzione e gestione di infrastrutture di rete.",  
   "showNavigationbar": true,
+  "skills": ["Java", "JavaEE", "C", "C#", "PHP", "HTML", "ECMA 6", "CSS", "Bash", "T-SQL", "Typescript", "Python",
+              "Docker", "Rancher", "Kubernetes", "Jenkins", "OpenShift", "CloudFoundry", "Concourse", "Ansible", "Vault",
+              "Elasticsearch", "Kibana", "Logstash", "Grafana", "Icinga", "VMware vSphere", "Nutanix",
+              "Microservices", "OOP", "Procedural", "Functional", "Event driven",
+              "Spring", "Hibernate", "Android SDK", "Angular", "JMX", "WebSphere MQ", "JPA", "Swing", "OSGi", "Electron", "NodeJS",
+              "MySQL (MariaDB)", "SQLite", "SQLServer", "PostgreSQL", "OrientDB", "Mongo", "JBOSS/Wildfly", "Apache", "Glassfish", "Karaf", "Tomcat",
+              "WebSphere MQ", "Kafka", "RabbitMQ", "FortiOS", "Cisco", "Mellanox", "Burp Suite", "OWASP", "Nmap", "Wireshark", "REST/SOAP"],
+  "experiences": [
+    {
+      "company": "Solera Italia S.r.l",
+      "name": "Software Architect",
+      "description": "Creazione middleware per integrazione multipiattaforma di servizi clienti. Lo sviluppo è in metodologia agile, ed è basato su architettura a microservizi con tecnologia Spring boot, Kafka e servizi RESTful.",
+      "competences": ["Microservice", "Spring boot", "Kafka", "RESTful", "Java 11", "JPA"],
+      "date": "Dec 2019"     
+    },
+    {
+      "company": "Solera Italia S.r.l",
+      "name": "DevOps Engineer",
+      "description": "Migrazione dell'infrastruttura cloud attuale su infrastruttura Pivotal Cloud Foundry e OpenShift. Reingegnerizzazione dei container applicativi e definizione delle nuove regole di compilazione e deploy, con completa automazione dello stesso processo.",
+      "competences": ["OpenShift", "PCF", "Concourse", "Terraform", "Ansible", "Docker"],
+      "date": "Sept 2018"     
+    },
+    {
+      "company": "Solera Italia S.r.l",
+      "name": "DevOps Engineer",
+      "description": "Creazione infrastruttura cloud basata su cluster kubernetes e piattaforma di virtualizzazione Nutanix, aggiornamento e reingegnerizzazione delle architetture software esistenti per il deploy su container. Automazione completa del processo di compilazione e rilascio con la creazione di pipeline concourse. Messa in opera del lifecycle monitoring delle applicazioni per garantire il business continuity. Gestione dell'High availability del cluster per garantire le SLA di servizio.",
+      "competences": ["Docker", "Kubernetes", "Concourse", "Terraform", "Ansible", "Nutanix", "Vault", "Kibana", "Icinga", "Spring"],
+      "date": "Aug 2017"     
+    },
+    {
+      "company": "Solera Italia S.r.l",
+      "name": "Network Engineer",
+      "description": "Amministrazione e ampliamento della rete intranet ed extranet preesistente. Amministrazione del firewall perimetrale, con creazione di policy, network rules, routing, e sicurezza. Gestione degli switch interni creazione del piano di indirizzamento segregazione delle reti, vlan.",
+      "competences": ["FortiOS", "VLAN", "Cisco", "Nmap", "Wireshark"],
+      "date": "Jan 2016"     
+    },
+    {
+      "company": "Solera Italia S.r.l",
+      "name": "IT System Administrator",
+      "description": "Manutenzione e amministrazione dell'infrastruttura di virtualizzazione preesistente basata su VMWare Vsphere. Progettazione e creazione della nuova infrastruttura di virtualizzazione basata su Nutanix, con definizione delle VM, gestione degli spazi, piano di indirizzamento e sicurezza e patch management. Gestione del sito di Disaster Recovery e pianificazione e messa in opera delle operazioni e test di DR",
+      "competences": ["Nutanix", "VLAN", "Cisco", "Mellanox", "VMware vSphere", "Ansible", "Terraform"],
+      "date": "Jan 2016"     
+    },
+    {
+      "company": "Solera Italia S.r.l",
+      "name": "Software Architect",
+      "description": "Progettazione e sviluppo delle architetture software per i progetti in fase di partenza, definizione delle linee guida per gli sviluppatori. Reingegnerizzazione ed aggiornamento dei progetti esistenti per supportare appieno le funzionalità di Java > 8, modularizzazione in microservizi (basati su Spring Boot) e contenerizzazione dell'applicazione.",
+      "competences": ["Java 8", "JPA", "Spring boot", "Gitflow", "Docker", "SQL Server", "PostgreSQL"],
+      "date": "Jan 2016"     
+    },
+    {
+      "company": "Autosoft S.r.l",
+      "name": "Senior Java Developer",
+      "description": "Progettazione e sviluppo (con metodologia agile) di un nuovo sistema software multitenant di claim assessment management, basato su JavaEE 7, OSGi, NoSQL (OrientDB), multiple integrazioni b2b gestite mendiante l'utilizzo di un ESB (Mule), serivizi esposti come SOAP e REST. I moduli core sono stati inoltre reingegnerizzati per poter essere eseguiti come microservizi su Spring Boot. Tutta l'appicazione è stata contenerizzata per essere eseguita su ambiente cloud Docker.",     
+      "competences": ["JavaEE 7", "JPA", "OSGi", "Karaf", "OrientDB", "Mule", "Docker"],
+      "date": "Mar 2015"     
+    },
+    {
+      "company": "Autosoft S.r.l",
+      "name": "Java Software Developer",
+      "description": "Manutenzione e sviluppo di nuove funzionalità su un sistema informatico preesistente di claim assessment management, con integrazione b2b, basato su Java EE, WS Soap/Rest, Message Queue (WebSphereMQ) Dojo, e HMTL come frontend. Creazione di un sistema di internalizzazione automatico in fase di compilazione, con annessa creazione di strumento desktop (Java swing) per la compilazione della soluzione l'integrazione delle traduzioni ed il deploy",     
+      "competences": ["JavaEE 6", "Hibernate", "WebSphereMQ", "Dojo", "Html", "Wildfly"],
+      "date": "Jan 2013"     
+    },
+    {
+      "company": "Autosoft S.r.l",
+      "name": "Java Software Developer",
+      "description": "Corso di formazione sulle metodologie di sviluppo web, in particolare sono state acquisite competenze sui frameworks Struts 1 - 2 e Hibernate.",     
+      "competences": ["JavaEE", "Hibernate", "Struts 1 - 2", "Html", "Jboss"],
+      "date": "Sep 2012"     
+    }
+  ], 
   "showBlog": false
 }

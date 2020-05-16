@@ -8,14 +8,18 @@ import {
 } from "./editable-stuff/configurations.json";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
+import Skills from "./components/home/Skills";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Experiences from "./components/home/Experiences";
 
 const Home = () => {
   return (
     <Fragment>
       <MainBody />
       <AboutMe />
+      <Experiences />
+      <Skills />
     </Fragment>
   );
 };
