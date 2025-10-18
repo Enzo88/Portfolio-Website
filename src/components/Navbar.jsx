@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import Pdf from "../editable-stuff/CV-Europass-Pimpinella-IT.pdf";
-import { showBlog, FirstName } from "../editable-stuff/configurations.json";
+import configurations from "../editable-stuff/configurations.json";
+
+const { FirstName } = configurations;
 
 const Navbar = (props) => {
   const [isTop, setIsTop] = useState(true);
@@ -26,8 +27,8 @@ const Navbar = (props) => {
       <button
         className="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo02"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02"
         aria-expanded="false"
         aria-label="Toggle navigation"

@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import SkillCard from "./SkillCard";
-import {
-  skills
-} from "../../editable-stuff/configurations.json";
+import configurations from "../../editable-stuff/configurations.json";
+
+const { skills } = configurations;
 
 const Skills = () => {
   const [skillsArray] = useState(skills);

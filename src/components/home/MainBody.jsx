@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import Typist from "react-typist";
-import {
-  FirstName,
-  LastName,
-  MiddleName,
-  devDesc,
-  icons,
-} from "../../editable-stuff/configurations.json";
+import configurations from "../../editable-stuff/configurations.json";
+
+const { FirstName, LastName, MiddleName, devDesc, icons } = configurations;
 
 const MainBody = () => {
   // const [backgroundType, setBackgroundType] = useState(Configs.backgroundType);

@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import ExperienceCard from "./ExperienceCard";
-import {
-  experiences
-} from "../../editable-stuff/configurations.json";
+import configurations from "../../editable-stuff/configurations.json";
+
+const { experiences } = configurations;
 
 const Experiences = () => {
   const [experiencesArray] = useState(experiences);

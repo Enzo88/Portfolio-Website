@@ -2,11 +2,9 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Pdf from "../../editable-stuff/CV-Europass-Pimpinella-IT.pdf";
 import avatar from "../../editable-stuff/avatar.png"
-import {
-  aboutHeading,
-  aboutDescription,
-  showProfilePic
-} from "../../editable-stuff/configurations.json";
+import configurations from "../../editable-stuff/configurations.json";
+
+const { aboutHeading, aboutDescription, showProfilePic } = configurations;
 
 const AboutMe = () => {
   const [instaProfilePic] = useState(avatar);
