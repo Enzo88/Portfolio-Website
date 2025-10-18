@@ -17,11 +17,11 @@ const Navbar = (props) => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg fixed-top navbar-light ${
-        isTop ? "bg-transparent" : "bg-gradient"
+      className={`navbar navbar-expand-lg fixed-top ${
+        isTop ? "navbar-dark bg-transparent" : "navbar-light bg-gradient"
         } `}
     >
-      <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
+      <a className="navbar-brand ps-3" href={process.env.PUBLIC_URL + "/#home"}>
         {`<${FirstName} />`}
       </a>
       <button
@@ -37,39 +37,39 @@ const Navbar = (props) => {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+        <ul className="navbar-nav me-auto mt-2 mt-lg-0">
           <li className="nav-item">
             <a
-              className="nav-link lead"
+              className="nav-link"
               href={process.env.PUBLIC_URL + "/#aboutme"}
             >
-              <b>About</b>
+              About
             </a>
           </li>
           <li className="nav-item">
             <a
-              className="nav-link lead"
+              className="nav-link"
               href={Pdf}
               target="_blank"
               rel="noreferrer noopener"
             >
-              <b>CV</b>
+              CV
             </a>
           </li>
           <li className="nav-item">
             <a
-              className="nav-link lead"
+              className="nav-link"
               href={process.env.PUBLIC_URL + "/#experiences"}
             >
-              <b>Experiences</b>
+              Experiences
             </a>
           </li>
           <li className="nav-item">
             <a
-              className="nav-link lead"
+              className="nav-link"
               href={process.env.PUBLIC_URL + "/#skills"}
             >
-              <b>Skills</b>
+              Skills
             </a>
           </li>
         </ul>

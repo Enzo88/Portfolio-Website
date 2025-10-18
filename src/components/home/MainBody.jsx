@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Typist from "react-typist";
+import Typewriter from "typewriter-effect";
 import configurations from "../../editable-stuff/configurations.json";
 
 const { FirstName, LastName, MiddleName, devDesc, icons } = configurations;
@@ -33,7 +33,17 @@ const MainBody = () => {
           <h1 className="display-1">
             {FirstName + " " + MiddleName + " " + LastName}
           </h1>
-          <Typist className="lead"> {devDesc}</Typist>
+          <div className="lead">
+            <Typewriter
+              options={{
+                strings: [devDesc],
+                autoStart: true,
+                loop: true,
+                delay: 75,
+                deleteSpeed: 50,
+              }}
+            />
+          </div>
           <div className="p-5">
             {icons.map((icon) => (
               <a

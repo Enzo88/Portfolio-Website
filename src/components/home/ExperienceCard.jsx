@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
-import axios from "axios";
+import React from "react";
 
 const ExperienceCard = ({ value }) => {
   return (
@@ -24,7 +23,7 @@ const Language = ({ value }) => {
     <div className="pb-3">
       Competences:{" "}
       {value.map((language) => (
-        <p key={language} className="badge badge-light card-link">{language}</p>
+        <span key={language} className="badge bg-secondary text-white me-1 mb-1">{language}</span>
       ))}
     </div>
   );

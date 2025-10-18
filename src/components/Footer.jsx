@@ -8,7 +8,7 @@ const Footer = () => {
       {/* <strong> &copy; 2019 </strong>*/}
       <i className="fas fa-code"></i> with <i className="fas fa-heart"></i> by{" "}
       <a
-        className="badge badge-dark"
+        className="badge bg-dark text-white text-decoration-none"
         rel="noopener"
         href="https://github.com/enzo88"
         aria-label="My GitHub"
